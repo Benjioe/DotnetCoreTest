@@ -1,0 +1,78 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\benja\\source\\repos\\DotnetCoreTest\\DotnetCoreTest\\DotnetCoreTest.csproj",
+    "projectName": "DotnetCoreTest",
+    "projectPath": "C:\\Users\\benja\\source\\repos\\DotnetCoreTest\\DotnetCoreTest\\DotnetCoreTest.csproj",
+    "outputPath": "C:\\Users\\benja\\source\\repos\\DotnetCoreTest\\DotnetCoreTest\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Microsoft.AspNetCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.1, )",
+          "autoReferenced": true
+        },
+        "Microsoft.AspNetCore.Diagnostics.Elm": {
+          "target": "Package",
+          "version": "[0.2.2, )"
+        },
+        "Microsoft.AspNetCore.Routing": {
+          "target": "Package",
+          "version": "[2.2.0-preview2-35157, )"
+        },
+        "Microsoft.AspNetCore.Server.IISIntegration": {
+          "target": "Package",
+          "version": "[2.2.0-preview2-35157, )"
+        },
+        "Microsoft.EntityFrameworkCore.Sqlite": {
+          "target": "Package",
+          "version": "[2.1.3, )"
+        },
+        "Microsoft.Extensions.Caching.Memory": {
+          "target": "Package",
+          "version": "[2.2.0-preview2-35157, )"
+        },
+        "Microsoft.Extensions.Caching.SqlConfig.Tools": {
+          "target": "Package",
+          "version": "[2.0.2, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        },
+        "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.4, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
